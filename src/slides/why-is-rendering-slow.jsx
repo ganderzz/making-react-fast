@@ -1,5 +1,5 @@
 import React from "react";
-import { Slide, Text, List, ListItem, BlockQuote } from "spectacle";
+import { Slide, Text, List, ListItem } from "spectacle";
 
 const notes = `
 `;
