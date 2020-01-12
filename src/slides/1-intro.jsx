@@ -11,9 +11,10 @@ const notes = `
 export default function() {
   return (
     <Slide bgColor="primary" textAlign="center" notes={notes}>
-      <Heading size={1} textColor="secondary" fit caps lineHeight={1.2}>
-        Making {"<React />"} Wicked Fast
+      <Heading size={3} textColor="secondary" lineHeight={1.2}>
+        Making {"<React />"} Fast
       </Heading>
+
       <Text bold textColor="tertiary" textSize="2rem">
         Dylan Paulus
       </Text>

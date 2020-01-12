@@ -15,25 +15,20 @@ const theme = createTheme(
   {
     primary: "white",
     secondary: "#1F2022",
-    dark: "#333",
+    dark: "#222",
     tertiary: "#03A9FC",
-    quaternary: "#444"
+    quaternary: "#444",
   },
   {
     primary: "Montserrat",
-    secondary: "Helvetica"
+    secondary: "Helvetica",
   }
 );
 
 export default class Presentation extends React.Component {
   render() {
     return (
-      <Deck
-        contentWidth="1500px"
-        transition={["slide"]}
-        transitionDuration={500}
-        theme={theme}
-      >
+      <Deck contentWidth="1500px" transition={["slide"]} transitionDuration={500} theme={theme}>
         {Object.values(Slides).map((Slide, i) => Slide())}
       </Deck>
     );

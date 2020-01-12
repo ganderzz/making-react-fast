@@ -13,14 +13,11 @@ export default function() {
       </Text>
 
       <Text bold textColor="dark">
-        Updating element types will destory and re-add the element
+        Updating element types will destroy and re-add the element
       </Text>
 
       <div style={{ marginTop: 40 }}>
-        <img
-          src={require("../media/tree-1.svg")}
-          alt="Tree showing different element types being rendered"
-        />
+        <img src={require("../media/tree-1.svg")} alt="Tree showing different element types being rendered" />
       </div>
 
       <sub style={{ fontSize: 18, marginTop: 60, lineHeight: "2rem" }}>

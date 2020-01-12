@@ -17,10 +17,7 @@ export default function() {
       </Text>
 
       <div style={{ marginTop: 40 }}>
-        <img
-          src={require("../media/tree-2.svg")}
-          alt="Tree showing different attributes"
-        />
+        <img src={require("../media/tree-2.svg")} alt="Tree showing different attributes" />
       </div>
 
       <div style={{ fontSize: 18, marginTop: 60, lineHeight: "2rem" }}>
